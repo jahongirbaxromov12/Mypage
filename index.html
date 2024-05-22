@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jahongir Baxromov</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            background-image: url();
+            color: white;
+            background-size: cover; /* Rasmning butun ekran bo'ylab chiqib ketishini ta'minlash */
+            background-attachment: fixed;
+        }
+
+        a {
+            color: #007bff; /* Link rangi */
+            transition: color 0.3s ease; /* Animatsiyani o'rnatish */
+        }
+        
+        a:hover {
+            color: #0056b3; /* Hover qilinganda link rangi */
+        }
+        
+        p {
+            color: white; /* Paragraf rangi */
+        }
+
+        header {
+            position: fixed; /* Tepaga qo'yish */
+            top: 0; /* Yuqori qismga joylashish */
+            width: 100%; /* Ekran eniga to'ldirish */
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 0.5rem 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+            margin-top: 4rem;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 1.5rem;
+        }
+
+        nav ul li a {
+            color: blue;
+            text-decoration: none;
+            font-size: 1.2rem;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:active {
+            font-size: 120%; /* Yuqoridan o'zgartirilgan bo'lib qoldirildi */
+            color: blueviolet;
+            font-weight: bold; /* Yoki kerakli shaklga o'zgartirish */
+            text-transform: uppercase;
+        }
+
+        section {
+            padding: 4rem 0;
+            text-align: center;
+        }
+
+        section h2 {
+            font-size: 2rem;
+            color: blueviolet;
+            margin-bottom: 1.5rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        section p,section p a {
+            text-decoration: none;
+            color: black;
+            line-height: 1.6;
+            margin-bottom: 2rem;
+            transition: color 0.3s ease;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .btn:hover {
+            background-color: #ffcc00;
+        }
+
+        section p a:active{
+            font-size: 120%; /* Yuqoridan o'zgartirilgan bo'lib qoldirildi */
+            color: blueviolet;
+            font-weight: bold; /* Yoki kerakli shaklga o'zgartirish */
+            text-transform: uppercase;
+        }
+
+        /* Buttonlar uchun yangi stil */
+        .social-btn {
+            margin-top: 1rem;
+        }
+
+        .social-btn a {
+            display: inline-block;
+            background-color: #333;
+            color: #fff;
+            padding: 0.8rem 1.5rem;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            margin-right: 1rem;
+        }
+
+        .social-btn a:hover {
+            background-color: #ffcc00;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 0.5rem 0;
+            width: 100%;
+        }
+
+        section ul li{
+            color: #333;
+            list-style-type: none;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+
+        /* Rasmlarga stil berish */
+    </style>
+</head>
+<body>
+    <header>
+        <h1>BJ Store</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">Blogs</a></li>
+            <li><a href="#portfolio">Rezyume</a></li>
+            <li><a href="#contact">Bog'lanish</a></li>
+        </ul>
+    </nav>
+    <section id="about">
+        <h2>My blogs</h2>
+        <p><a href="https://www.instagram.com/foul.uz/">Instagram: 1M+ views</a></p>
+        <p><a href="https://t.me/stadium365">Telegram: 2k+ followers</a></p>
+    </section>
+    <section id="portfolio">
+        <h2>#Rezyume</h2>
+        <p>
+            👨‍💻Men IT va SMM mutaxasisiman<br>
+            — Tajriba: 3 yil<br>
+            — Til: Ingliz, Rus , O'zbek <br>
+            — Dasturlar: Python, JavaScript, Html, CSS, Bootstrap, Django, React<br>
+            — Xizmatlar: Telegram bot, Website, Webapp , Instagram bot , Mobile app <br>
+            — SMM: Reelsmaking,   kopirayting, kontent making, Ijtimoiy tarmoqlardagi sahifalarni yuritish.<br>
+        </p>
+    </section>
+    <section id="contact">
+        <h2>Bog'lanish</h2>
+        <p>Agar men bilan bog'lanmoqchi bo'lsangiz, quyidagi manzillarga murojaat qiling:</p>
+        <ul>
+            <li>Email: jahongirbaxromov07@gmail.com</li>
+            <li>Telefon: +998948058118</li>
+        </ul>
+        <div class="social-btn">
+            <a href="tel: +998948058118">Call</a>
+            <a href="https://www.instagram.com/foul.uz/" target="_blank">Instagram</a>
+            <a href="https://t.me/IT_s24bot" target="_blank">Telegram</a>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 BJ Store. Barcha huquqlar himoyalangan.</p>
+    </footer>
+</body>
+</html>
